@@ -1,6 +1,6 @@
 {
-  "name": "ai-task-manager",
-  "version": "0.1.0",
+  "name": "task-manager",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.0",
@@ -31,6 +31,7 @@
     "@types/jest": "^27.5.2",
     "@types/react": "^18.3.7",
     "@types/react-dom": "^18.3.0",
+    "ai-task-manager": "file:",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "date-fns": "^3.6.0",
@@ -44,6 +45,7 @@
     "recharts": "2.9.0",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
+    "task-manager": "file:",
     "typescript": "^4.0.0",
     "uuid": "^10.0.0",
     "vaul": "^0.9.1"

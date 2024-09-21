@@ -17,7 +17,7 @@ You can play around with code and add more functionality.
 ```
 - Install **Node JS** and **NPM** from this [link](https://nodejs.org/en/download/package-manager "link")
 
--  ** Note : - ** If you face SSL issue, you can modify "package.json" to add this ```NODE_OPTION=--openssl-legacy-provider``` in scripts sections.
+-  **Note : -** If you face SSL issue, you can modify "package.json" to add this ```NODE_OPTION=--openssl-legacy-provider``` in scripts sections.
 It should look like this.
 ```bash
 "scripts": {

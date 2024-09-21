@@ -6,6 +6,24 @@ This webapp has ability to add and delete tasks on the fly and all added tasks w
 
 You can play around with code and add more functionality.
 
+### Installing on Windows 11
+- You can download Portable Git from this [link](https://git-scm.com/download/win "link")
+- You can download **NODE JS** and **NPM** from this [link](https://nodejs.org/en/download/package-manager "link")
+
+### Installing on Debian Linux or Ubuntu Linux
+- Install GIT using this command 
+``` bash
+	sudo apt-get install git
+```
+- Install **Node JS** and **NPM** from this [link](https://nodejs.org/en/download/package-manager "link")
+
+-  ** Note : - ** If you face SSL issue, you can modify "package.json" to add this ```NODE_OPTION=--openssl-legacy-provider``` in scripts sections.
+It should look like this.
+```bash
+"scripts": {
+    "start": "NODE_OPTION=--openssl-legacy-provider react-scripts start",
+}
+```
 # Build and Run with NPM
 
 Currently it is built with **Node.JS** version **18.20.4**. and all Dependency are defined in *package.json*.
